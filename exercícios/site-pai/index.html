@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Enzo Del Buoni</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: linear-gradient(to bottom, #b00020 0%, #121212 30%);
+            color: #eee;
+            min-height: 100vh;
+        }
+        header {
+            background: transparent;
+            color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            color: #b00020;
+        }
+        header p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+        }
+        nav {
+            margin-top: 2rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            transition: background 0.3s, border 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid #fff;
+        }
+        section {
+            padding: 5rem 2rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #b00020;
+            text-align: center;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .card {
+            background: #1f1f1f;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+        }
+        .card h3 {
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+        .card p {
+            margin-bottom: 1.5rem;
+            color: #ccc;
+        }
+        .btn {
+            background-color: #b00020;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #7f0000;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #1f1f1f;
+            color: #888;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seu Nome</h1>
+        <p>Desenvolvedor Especializado em Landing Pages de Alta Performance</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p style="text-align: center; max-width: 700px; margin: auto;">Sou desenvolvedor focado em criar landing pages profissionais, responsivas e otimizadas para gerar conversões. Trabalho com HTML, CSS e JavaScript para entregar soluções rápidas, modernas e eficientes que agregam valor ao seu negócio.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Landing Page de Captura</h3>
+                <p>Projeto responsivo para coleta de leads com integração em ferramentas de e-mail marketing.</p>
+                <a class="btn" href="#">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <h3>Landing Page para Vendas</h3>
+                <p>Página de alta conversão voltada para lançamentos de produtos digitais.</p>
+                <a class="btn" href="#">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <h3>Landing Page Institucional</h3>
+                <p>Apresentação profissional de serviços e captura de contatos para empresas.</p>
+                <a class="btn" href="#">Ver Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p style="text-align: center; max-width: 600px; margin: auto;">Interessado em desenvolver uma landing page exclusiva para o seu projeto? Entre em contato comigo!</p>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a class="btn" href="mailto:voce@email.com">Enviar E-mail</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+

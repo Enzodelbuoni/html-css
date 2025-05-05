@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.titulo{
+    background-color: rgb(33, 30, 30);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    height: 450px;
+    text-align: left;
+    box-sizing: 100px;
+    
+}
